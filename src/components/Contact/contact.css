@@ -1,0 +1,223 @@
+#contact {
+  padding: 30px 10px;
+  margin-left: 20px;
+}
+
+.contact-left,
+.contact-right {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  margin-top: 20px;
+  display: flex;
+  align-items: center; /* Center the icon and text vertically */
+}
+
+.contact-icon {
+  color: #ff004f; /* Color for contact icons */
+  margin-right: 10px; /* Space between icon and text */
+  font-size: 20px; /* Size for contact icons */
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icon {
+  color: #555; /* Default color for the icons */
+  font-size: 24px; /* Default size for social icons */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.social-icon:hover {
+  color: #0077b5; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+.social-icons {
+  display: flex;
+  gap: 15px; /* Adjust spacing between icons */
+}
+
+.social-icon {
+  font-size: 2rem; /* Size of the icons */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+/* Specific colors for each icon */
+.social-icon.fa-facebook {
+  color: #3b5998; /* Facebook blue */
+}
+
+.social-icon.fa-instagram {
+  color: #e1306c; /* Instagram red */
+}
+
+.social-icon.fa-linkedin {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icon.fa-twitter {
+  color: #1da1f2; /* Twitter blue */
+}
+
+/* Hover effect */
+.social-icon:hover {
+  transform: scale(1.1); /* Enlarge icon on hover */
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  background: #262626;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  color: white; /* Text color for inputs */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+
+form .btn2 {
+  padding: 12px 50px;
+  font-size: 16px;
+  margin-top: 15px;
+  background-color: black; /* Button background color */
+  color: white; /* Button text color */
+  border: 1px solid #e60045; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+#msg {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
+form .btn2:hover {
+  background-color: #e60045; /* Darker shade on hover */
+}
+
+.copyright {
+  padding: 20px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Responsive styles for small and extra-small devices */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .social-icon {
+    font-size: 22px; /* Adjusted size for small screens */
+  }
+
+  form input,
+  form textarea {
+    font-size: 15px;
+  }
+
+  form .btn2 {
+    padding: 10px 40px; /* Adjusted padding for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-icon {
+    font-size: 18px; /* Further reduced size for extra-small screens */
+  }
+
+  .social-icon {
+    font-size: 20px; /* Further reduced size for extra-small screens */
+  }
+
+  form input,
+  form textarea {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  form .btn2 {
+    padding: 8px 35px; /* Adjusted padding for extra-small screens */
+    font-size: 14px;
+  }
+
+  .copyright {
+    font-size: 12px; /* Reduced font size for extra-small screens */
+  }
+}
+
+/* #contact {
+  margin-left: 40px;
+}
+.contact-left {
+  flex-basis: 35%;
+}
+.contact-right {
+  flex-basis: 60%;
+}
+.contact-left p {
+  margin-top: 30px;
+}
+.contact-left p i {
+  color: #ff004f;
+  margin-right: 15px;
+  font-size: 25px;
+}
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icons a:hover {
+  color: #ff004f;
+  transform: translate(-5px);
+}
+.contact-right form {
+  width: 100%;
+}
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+form btn2 {
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  font-weight: 300px;
+  margin-top: 20px;
+} */
