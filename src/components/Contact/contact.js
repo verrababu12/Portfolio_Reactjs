@@ -53,14 +53,34 @@ const Contact = () => {
                 9876543210
               </p>
               <div className="social-icons">
-                <FaFacebook className="social-icon fa-facebook" />
-
-                <FaInstagram className="social-icon fa-instagram" />
-
-                <FaLinkedin className="social-icon fa-linkedin" />
-
-                <FaXTwitter className="social-icon" />
-
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebook className="social-icon fa-facebook" />
+                </a>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram className="social-icon fa-instagram" />
+                </a>
+                <a
+                  href="https://linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin className="social-icon fa-linkedin" />
+                </a>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter className="social-icon" />
+                </a>
                 <a
                   href="https://github.com"
                   target="_blank"
