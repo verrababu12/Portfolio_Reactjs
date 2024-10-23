@@ -15,10 +15,8 @@ const Services = () => {
             <p>
               "I create visually appealing and user-friendly websites that work
               seamlessly on all devices. My designs focus on modern, responsive
-              layouts that enhance user engagement. I blend creativity with the
-              latest trends to craft digital experiences that captivate
-              visitors. My goal is to turn ideas into functional, eye-catching
-              websites."
+              layouts that enhance user engagement. My goal is to turn ideas
+              into functional, eye-catching websites."
             </p>
             <a
               href="https://webdesign-for-portfolio.vercel.app/"
@@ -35,9 +33,7 @@ const Services = () => {
             <p>
               "My UI/UX design approach centers on creating intuitive and
               engaging user experiences. I design interfaces that guide users
-              smoothly and effectively, blending aesthetics with usability. From
-              wireframes to prototypes, each detail serves a purpose. I aim to
-              make products that are both beautiful and easy to use."
+              smoothly and effectively, blending aesthetics with usability."
             </p>
             <a
               href="https://ui-ux-design-for-portfolio.vercel.app/"
@@ -54,10 +50,7 @@ const Services = () => {
             <p>
               "I design apps that prioritize user experience, combining
               functionality with clean, appealing visuals. My focus is on
-              creating intuitive interfaces that enhance user interaction. From
-              concept to design, I ensure every app is seamless and responsive.
-              My goal is to deliver delightful experiences across all
-              platforms."
+              creating intuitive interfaces that enhance user interaction."
             </p>
             <a
               href="https://app-design-for-portfolio.vercel.app/"
