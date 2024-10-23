@@ -61,7 +61,13 @@ const Contact = () => {
 
                 <FaXTwitter className="social-icon" />
 
-                <FaGithub className="social-icon" />
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub className="social-icon" />
+                </a>
               </div>
             </div>
             <div className="contact-right">
