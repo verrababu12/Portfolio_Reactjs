@@ -90,9 +90,9 @@
   cursor: pointer; /* Pointer on hover */
 }
 
-/* .services-btn:hover {
-  background-color: ;
-} */
+.services-btn:hover {
+  background-color:aqua;
+}
 
 @media (max-width: 480px) {
   .services-list div h2 {

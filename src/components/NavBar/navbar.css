@@ -7,7 +7,7 @@
   height: 5rem;
   width: 100vw;
   max-width: 75rem;
-  position: sticky;
+  /* position: sticky;  */
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;

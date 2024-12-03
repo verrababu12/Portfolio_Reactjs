@@ -48,14 +48,14 @@ const Portfolio = () => {
               <h3>Todo-List App</h3>
               <p>
                 A comprehensive todo management tool designed to enhance
-                productivity. ● User-friendly interface with HTML, CSS, and
-                Bootstrap for ease of use. ● Effortless task management through
-                JavaScript-based CRUD operations with dynamic UI updates. ● Your
+                productivity. User-friendly interface with HTML, CSS, and
+                Bootstrap for ease of use. Effortless task management through
+                JavaScript-based CRUD operations with dynamic UI updates. Your
                 tasks are always safe with local storage methods to ensure task
                 persistence.
               </p>
               <a
-                href="https://todoappbyveeru.ccbp.tech/"
+                href="https://vbtodolist.ccbp.tech/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

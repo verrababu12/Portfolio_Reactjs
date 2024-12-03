@@ -46,43 +46,43 @@ const Contact = () => {
             <div className="contact-left">
               <h1 className="sub-title">Contact Me</h1>
               <p>
-                <FaPaperPlane className="contact-icon" /> veeru@gmail.com
+                <FaPaperPlane className="contact-icon" /> verrababu6@gmail.com
               </p>
               <p>
                 <FaPhoneSquareAlt className="contact-icon" />
-                9876543210
+                8074285598
               </p>
               <div className="social-icons">
                 <a
-                  href="https://facebook.com"
+                  href="https://facebook.com/veera.babu.33633344"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaFacebook className="social-icon fa-facebook" />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://instagram.com/veeru_the_learner"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaInstagram className="social-icon fa-instagram" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/veera-babu-t-37793a23b/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaLinkedin className="social-icon fa-linkedin" />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://twitter.com/Veeru"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaXTwitter className="social-icon" />
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/verrababu12"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
