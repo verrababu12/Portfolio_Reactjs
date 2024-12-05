@@ -10,6 +10,7 @@ body {
   color: white;
   overflow: hidden;
   overflow-y: scroll;
+  font-family: "Roboto", "Bree Serif";
 }
 html {
   scroll-behavior: smooth;
