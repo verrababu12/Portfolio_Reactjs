@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa"; // Importing icons from react-icons
-import "./navbar.css";
+import "./index.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,13 +12,13 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1>
+      <h1 className="navbar-heading">
         <span className="name">V</span>eeru.
       </h1>
       <div className={`desktopMenu ${isMenuOpen ? "active" : ""}`}>
         <Link
           className="desktopMenuListItem"
-          to="intro"
+          to="home"
           smooth={true}
           duration={500}
           onClick={handleMenuToggle}
@@ -36,6 +36,15 @@ const Navbar = () => {
         </Link>
         <Link
           className="desktopMenuListItem"
+          to="skills"
+          smooth={true}
+          duration={500}
+          onClick={handleMenuToggle}
+        >
+          Skills
+        </Link>
+        <Link
+          className="desktopMenuListItem"
           to="services"
           smooth={true}
           duration={500}
@@ -45,12 +54,12 @@ const Navbar = () => {
         </Link>
         <Link
           className="desktopMenuListItem"
-          to="portfolio"
+          to="education"
           smooth={true}
           duration={500}
           onClick={handleMenuToggle}
         >
-          Portfolio
+          Education
         </Link>
         <Link
           className="desktopMenuListItem"
@@ -72,3 +81,34 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// import React from "react";
+// import "./index.css";
+
+// const Navbar = () => {
+//   const scrollTo = (id) => {
+//     const el = document.getElementById(id);
+//     if (el) el.scrollIntoView({ behavior: "smooth" });
+//   };
+
+//   return (
+//     <nav className="nav">
+//       <div className="nav-inner container">
+//         <div className="brand" onClick={() => scrollTo("home")}>
+//           Veeru
+//         </div>
+//         <ul className="nav-links">
+//           <li onClick={() => scrollTo("home")}>Home</li>
+//           <li onClick={() => scrollTo("about")}>About</li>
+//           <li onClick={() => scrollTo("skills")}>Skills</li>
+//           <li onClick={() => scrollTo("services")}>Services</li>
+//           <li onClick={() => scrollTo("education")}>Education</li>
+//           <li onClick={() => scrollTo("projects")}>Projects</li>
+//           <li onClick={() => scrollTo("contact")}>Contact</li>
+//         </ul>
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;

@@ -8,7 +8,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import "./contact.css";
+import "./index.css";
 
 const Contact = () => {
   const [message, setMessage] = useState("");
@@ -121,9 +121,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="copyright">
-        <p>&copy; 2024 My Portfolio | All rights reserved.</p>
       </div>
     </>
   );
