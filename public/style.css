@@ -7,7 +7,7 @@
 }
 body {
   background: rgb(243, 242, 242);
-  color: white;
+  color: rgb(24, 23, 23);
   overflow: hidden;
   overflow-y: scroll;
   font-family: "Roboto", "Bree Serif";
